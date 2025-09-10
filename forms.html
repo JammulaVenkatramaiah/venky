@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <table border="2px"  align="center" cellspacing="05px" cellpadding="10px">
+            <tr>
+        <th><label>Username :</label></th>
+        <td><input type="text" placeholder="Enetr Username" readonly value="Coding" required/></td>
+            </tr>
+            <tr>
+        <th><label>Password :</label></th>
+        <td><input type="password" placeholder="Enter Password" required/></td>
+        </tr>
+        <tr align="left">
+            <th><label>Programmings</label></th>
+            <td><input type="checkbox" checked name="skill" />
+                <label>Java</label><br>
+                <input type="checkbox" name="skill" />
+                <label>SQL</label><br>
+                <input type="checkbox" name="skill" />
+                <label>HTML CSS</label><br>
+                <input type="checkbox" name="skill" />
+                <label>Python</label>
+            </td>
+        </tr>
+        <tr>
+            <th>gender</th>
+            <td>
+                <input type="radio" name="gender" />
+                <label>male</label><br>
+                <input type="radio" name="gender" />
+                <label>Female</label><br>
+                <input type="radio" name="gender" />
+                <label>Other</label>
+            </td>
+        </tr>
+        <tr>
+            <th><label>Email</label></th>
+            <td><input type="email" placeholder="@gmail.com" required/></td>
+        </tr>
+        <tr>
+            <td><input type="file" /></td>
+            <td><input type="file" multiple/></td>
+        </tr>
+        <tr>
+            <th><label>Birth day</label></th>
+            <td><input type="datetime-local"></td>
+        </tr>
+        <tr>
+            <th><label>Enter Phone number</label></th>
+            <td>
+                <input type="text" name="code" placeholder="+91" size=2>
+                <input type="tel" id="phone" name="phone" pattern="[0-9][4]-[0-9][6/]"/>
+            </td>
+        </tr>
+/////////////////////////////        <tr>
+        <input type="hidden" value="profile">
+        </tr>
+        <tr>
+            <th><input type="button" value="submit" onclick="alert('Coding hub')" />
+            <input type="submit" value="Login!"/></th>
+            <th><input type="reset" value="Reset"  onclick="alert('Form has been reset')"/>
+            <input type="reset"/></th>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>

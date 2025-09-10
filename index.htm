@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to html classes</title>
+        <style>
+            .ta{
+                background-color: red;
+                text-align: center;
+                border: 2px solid black;
+                border-collapse: collapse;
+
+            }
+            .ta td, .ta th{
+                border: 2px solid black;
+                padding: 10px;
+            }
+            .bo{
+                text-align: center;
+                margin: auto;
+                text-decoration-color: indigo;
+                alignment-baseline: center;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body class="bo">
+        <p>Coding hub</p>
+
+        <form>
+        <table class="ta">
+            <tr>
+                <td><label for="username" >Username :</label></td>
+            <td><input type="text" id ="username" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email :</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for ="number">Number :</label></td>
+                <td><input type="number" id="number" name="phone number"></td>
+            </tr>
+            <tr>
+                <td><label for="checkbox">Subscribe to newsletter:</label></td>
+                <td><input type="checkbox" id="checkbox" name="subscribe"></td>
+            </tr>
+            <tr>
+                <td><label for="button"></label></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <th><label for="reset"></label></th>
+                <th><input type="reset" value="Reset"></th>
+                <th></th>
+            </tr>
+        </table>
+        </form>
+
+    </body>
+</html>
