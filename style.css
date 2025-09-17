@@ -1,0 +1,29 @@
+body{
+    background-color: lightgrey;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+    text-decoration-color: #1c062b;
+    alignment-baseline: left;
+    background-color: rgb(213, 27, 27);
+    font-weight: bolder;
+}
+p{
+    background-color: rgb(48, 211, 53);
+    font-size: 50px;
+    color: white;
+}
+b{
+    background-color: lab(80.27% -69.23 53.24);
+    font-size: 50px;
+    color: white;
+}
+i{
+    background-color: rgb(27, 213, 27);
+    font-size: 50px;
+    color: black;
+    text-transform: capitalize;
+}
